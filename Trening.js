@@ -2,11 +2,11 @@ function examTrening(input) {
 
     let studentNum = Number(input[0]);
 
-    let fail = 0
-    let Between3and399 = 0
-    let Between4and499 = 0
-    let TopStudents = 0
-    let sum = 0
+    let fail = 0;
+    let Between3and399 = 0;
+    let Between4and499 = 0;
+    let TopStudents = 0;
+    let sum = 0;
 
     for (let i = 1; i <= input.length; i++) {
         let grade = Number(input[i])
